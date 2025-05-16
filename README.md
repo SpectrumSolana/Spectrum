@@ -1,31 +1,67 @@
-# React Native Expo App
+# Spectrum-FE
 
-This is a React Native application built with Expo 53 and TypeScript.
+## Overview
+Spectrum-FE is a React Native app built with Expo, featuring a modern, dark-themed UI with a custom tab bar and several feature screens.
 
 ## Prerequisites
+- Node.js (v14 or later)
+- npm
+- Expo Go app installed on your mobile device
 
-- Node.js (LTS version recommended)
-- npm or yarn
-- Android Studio (for Android development)
-- Android SDK
-- Expo Go app on your Android device (for testing)
+## Setup Instructions
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/Spectrum-FE.git
+   cd Spectrum-FE
+   ```
 
-## Setup
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-1. Install dependencies:
-```bash
-npm install
-```
+3. **Start the Expo development server:**
+   ```bash
+   npm start
+   ```
 
-2. Start the development server:
-```bash
-npm start
-```
+4. **Open the app on your device:**
+   - Scan the QR code displayed in the terminal with the Expo Go app on your mobile device.
+   - Alternatively, you can run the app on an emulator by pressing `a` for Android or `i` for iOS in the terminal.
 
-3. To run on Android:
-```bash
-npm run android
-```
+## Contributing
+1. **Fork the repository:**
+   - Go to the [Spectrum-FE repository](https://github.com/yourusername/Spectrum-FE) and click the "Fork" button.
+
+2. **Create a new branch:**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+3. **Make your changes:**
+   - Implement your feature or fix a bug.
+
+4. **Commit your changes:**
+   ```bash
+   git commit -m "Add your feature or fix"
+   ```
+
+5. **Push to your fork:**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+6. **Create a Pull Request:**
+   - Go to your fork on GitHub and click the "New Pull Request" button.
+   - Select the main branch of the original repository as the base and your feature branch as the compare.
+   - Submit the pull request.
+
+## Additional Information
+- The app uses Expo Go for development, which allows you to run the app on your physical device without needing to set up a development environment.
+- For more information on Expo, visit the [Expo documentation](https://docs.expo.dev/).
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Project Structure
 
@@ -46,10 +82,7 @@ src/
 
 ## Available Scripts
 
-- `npm start` - Start the Expo development server
-- `npm run android` - Run on Android emulator/device
-- `npm run ios` - Run on iOS simulator/device
-- `npm run web` - Run in web browser
+- `npx expo start --clear` - Start the Expo development server with a clean cache
 
 ## Dependencies
 
