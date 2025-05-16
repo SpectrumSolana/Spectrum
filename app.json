@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Spectrum-FE",
+    "slug": "Spectrum-FE",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.funt3ars.Spectrum-FE"
+    }
+  }
+}
