@@ -100,3 +100,13 @@ Key TypeScript features:
 - Path aliases configured
 - React Native specific TypeScript configuration
 - Type definitions for all major dependencies 
+
+# Demo Video
+
+You can watch a demo of the app below:
+
+[![Watch the demo](demo/Simulator_Screen_Recording_iPhone15Pro.mp4)](demo/Simulator_Screen_Recording_iPhone15Pro.mp4)
+
+> **Note:** GitHub may not play MP4 files inline. If so, [download the video here](demo/Simulator_Screen_Recording_iPhone15Pro.mp4) and play it locally.
+
+--- 
