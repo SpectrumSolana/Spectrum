@@ -1,0 +1,97 @@
+{
+  "portfolio": {
+    "assetDiversity": "40.0%",
+    "holdingPeriod": "45 days",
+    "profitLoss": "$0.30",
+    "value": "5.45"
+  },
+  "defiUsage": {
+    "tvl": "$0.80",
+    "protocolsUsed": "40.0%",
+    "yieldFarming": true,
+    "lending": true
+  },
+  "nftActivity": {
+    "totalOwned": 4,
+    "avgHolding": "32 days"
+  },
+  "riskProfile": {
+    "riskTolerance": "medium",
+    "leverage": false,
+    "insurance": "$0.34"
+  },
+  "learningGrowth": {
+    "knowledge": 1,
+    "exp": 60,
+    "community": "0.32%",
+    "governance": "0.20%"
+  },
+  "transactions": [
+    {
+      "hash": "adwui...a2",
+      "from": "adwuiga2",
+      "to": "adwuiga2",
+      "value": "$20.00",
+      "status": "done"
+    }
+  ],
+  "activeMissions": [
+    {
+      "title": "DEFI FOUNDATIONS",
+      "current": 3,
+      "total": 5,
+      "color": "#7ED957"
+    },
+    {
+      "title": "NFT EXPLORATION",
+      "current": 1,
+      "total": 5,
+      "color": "#FFD057"
+    }
+  ],
+  "pastMissions": [
+    {
+      "title": "DECENTRALIZATION",
+      "current": 5,
+      "total": 5
+    },
+    {
+      "title": "BULL AND BEAR",
+      "current": 5,
+      "total": 5
+    },
+    {
+      "title": "READING GRAPHICS",
+      "current": 5,
+      "total": 5
+    }
+  ],
+  "chainTools": [
+    {
+      "name": "MARINADE",
+      "type": "SOL STACKING",
+      "apy": "6.8% APY",
+      "apyColor": "#7ED957",
+      "expectedYield": "",
+      "riskLevel": "Low",
+      "riskLevelColor": "#7ED957",
+      "complexity": "Beginner-friendly",
+      "complexityColor": "#7ED957",
+      "leftButton": { "label": "Try Now" },
+      "rightButton": { "label": "Learn More" }
+    },
+    {
+      "name": "RAYDIUM",
+      "type": "LIQUIDITY PROVISION",
+      "apy": "15-40% APY",
+      "apyColor": "#FFD057",
+      "expectedYield": "",
+      "riskLevel": "Medium-High",
+      "riskLevelColor": "#FFD057",
+      "complexity": "Intermediate",
+      "complexityColor": "#FFD057",
+      "leftButton": { "label": "Preview" },
+      "rightButton": { "label": "Learn More" }
+    }
+  ]
+} 

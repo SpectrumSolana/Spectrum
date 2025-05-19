@@ -1,0 +1,27 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect x="40" y="100" width="140" height="60" rx="15" fill="#fffbe6" stroke="#222" stroke-width="2"/>
+  <text x="55" y="135" font-family="Comic Sans MS, Comic Sans, cursive" font-size="16" fill="#222">Mobile App</text>
+  <text x="55" y="155" font-family="Comic Sans MS, Comic Sans, cursive" font-size="12" fill="#222">(React Native/Expo)</text>
+  <rect x="240" y="100" width="160" height="60" rx="15" fill="#e6f7ff" stroke="#222" stroke-width="2"/>
+  <text x="255" y="135" font-family="Comic Sans MS, Comic Sans, cursive" font-size="16" fill="#222">Backend Engine</text>
+  <text x="255" y="155" font-family="Comic Sans MS, Comic Sans, cursive" font-size="12" fill="#222">(Node.js/Express)</text>
+  <rect x="460" y="100" width="120" height="60" rx="15" fill="#f0e6ff" stroke="#222" stroke-width="2"/>
+  <text x="475" y="135" font-family="Comic Sans MS, Comic Sans, cursive" font-size="16" fill="#222">Solana</text>
+  <text x="475" y="155" font-family="Comic Sans MS, Comic Sans, cursive" font-size="12" fill="#222">Blockchain</text>
+  <!-- Arrows -->
+  <line x1="180" y1="130" x2="240" y2="130" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="400" y1="130" x2="460" y2="130" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="240" y1="150" x2="180" y2="150" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="460" y1="150" x2="400" y2="150" stroke="#222" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10" fill="#222"/>
+    </marker>
+  </defs>
+  <!-- Labels -->
+  <text x="190" y="120" font-family="Comic Sans MS, Comic Sans, cursive" font-size="12" fill="#222">User input, wallet connect</text>
+  <text x="320" y="120" font-family="Comic Sans MS, Comic Sans, cursive" font-size="12" fill="#222">On-chain data fetch</text>
+  <text x="190" y="170" font-family="Comic Sans MS, Comic Sans, cursive" font-size="12" fill="#222">API: Profile, Recommendations</text>
+  <text x="320" y="170" font-family="Comic Sans MS, Comic Sans, cursive" font-size="12" fill="#222">Wallet data: tx, NFTs, DeFi</text>
+</svg> 
