@@ -18,7 +18,7 @@ packages/
 
 ### Mobile App
 - Node.js (v14 or later)
-- pnpm
+- npx (comes with npm)
 - Expo Go app installed on your mobile device
 
 ### Backend
@@ -44,7 +44,7 @@ packages/
 3. **Start the mobile app:**
    ```bash
    cd packages/mobile
-   pnpm start
+   npx expo start
    ```
 
 4. **Open the mobile app:**
@@ -88,7 +88,7 @@ packages/
 ### Mobile App
 - Located in `packages/mobile`
 - Built with React Native and Expo
-- Use `pnpm start` to start the Expo development server
+- Use `npx expo start` to start the Expo development server
 - Press 'a' to open on Android emulator
 - Scan the QR code with Expo Go app on your Android device
 
@@ -108,8 +108,8 @@ packages/
 - `pnpm install` - Install all dependencies across packages
 
 ### Mobile
-- `pnpm start` - Start the Expo development server
-- `pnpm start --clear` - Start with a clean cache
+- `npx expo start` - Start the Expo development server
+- `npx expo start --clear` - Start with a clean cache
 
 ### Backend
 - `cargo build` - Build all Rust services
